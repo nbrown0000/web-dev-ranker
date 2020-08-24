@@ -38,11 +38,23 @@
   padding-right: 20px;
 }
 
-.App main {
+.main {
+  margin: 0;
   background: #F5F5F5;
   max-width: 800px;
-  margin: 0px 50px 20px 50px;
+  /* margin: 0px 50px 20px 50px; */
   width: 100%;
   flex-grow: 1;
-  padding: 15px;
+  padding: 35px;
+}
+
+.main__list {
+  margin: 0;
+  padding: 0;
+}
+
+.main__list-item {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }
