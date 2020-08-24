@@ -6,8 +6,13 @@ class App extends React.Component {
     return (
       <div className="App">
         <header>
-          Web Dev Resources Ranker
+          <h1>Web Dev Resources Ranker</h1>
         </header>
+        <nav>
+          <p>User</p>
+          <p>Search</p>
+          <p>Favourites</p>
+        </nav>
         <main>
           Content to come soon!
         </main>
